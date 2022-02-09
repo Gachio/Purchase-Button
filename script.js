@@ -3,9 +3,9 @@
 // that has the id="error".
 
 let errorPurchase = document.getElementById("error")
-console.log("errorPurchase")
+//console.log("errorPurchase")
 
 function purchase() {
-  console.log("button clicked")
+  //console.log("button clicked")
   errorPurchase.textContent ="Something went wrong, please try again"
 }
